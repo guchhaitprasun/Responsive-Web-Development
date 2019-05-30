@@ -1,0 +1,134 @@
+/* Desktop style sheet for NYC site */
+
+
+/* Background image and color */
+
+body {
+	background-color: black;
+	background-image: url(../images/g_s_background.png);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	}
+	
+
+/* Basic div styles */
+
+#container {
+	width: 90%;
+	max-width: 1300px;
+	margin: auto;
+	}
+
+#content {
+	clear: both;
+	margin-top: 100px;
+	}
+	
+
+/* Adaptive layout styles */
+
+.column1 {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	}
+	
+.column2 {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	}
+	
+.column3 {
+	width: 32%;
+	float: left;
+	}
+
+
+/* Heading styles */
+	
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+	font-size: 1.3em;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	}
+	
+.title {
+	margin-top: 30px;
+	font-size: 1.7em;
+	}
+
+
+/* Basic text styles */
+	
+p, ul, ol {
+	color: white;
+	font-family: Palatino, Times, serif;
+	font-size: .95em;
+	line-height: 1.4em;
+	text-align: left;
+	}
+	
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	}
+	
+li {
+	float: left;
+	margin-right: 2%;
+	border-bottom: solid red;
+	}
+
+.credit {
+	font-size: 1em;
+	text-align: center;
+	}
+
+	
+/* Image styles */
+
+img {
+	width: 100%;
+	}
+	
+
+/* Page footer */
+
+#footer {
+	clear: both;
+	padding-top: 24px;
+	}
+
+
+/* Link states */
+	
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	}
+
+	
+a:focus, a:hover {
+	color: black;
+	background: white;
+	}
+	
+a:active {
+	text-decoration: none;
+	}
+.footer2{
+	border-bottom: solid red;
+}
+.none{
+	border: none;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+/* End desktop style sheet for TMC site */
