@@ -1,0 +1,136 @@
+/* Mobile style sheet for NYC site */
+
+
+/* Background image and color */
+
+body {
+	background-color: black;
+	background-image: url(../images/g_s_background.png);
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	}
+	
+
+/* Basic div styles */
+
+#container {
+	width: 90%;
+	margin: auto;
+	}
+
+#content {
+	margin-top: 24px;
+	}
+#none{
+	float: left;
+	list-style-image: 10%
+}
+
+/* Adaptive layout styles */
+
+.column1 {
+	width: 100%;
+	}
+	
+.column2 {
+	width: 100%;
+	}
+	
+.column3 {
+	width: 100%;
+	}
+
+
+/* Heading styles */
+	
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+	font-size: 1.3em;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	}
+	
+.title {
+	margin-top: 30px;
+	font-size: 1.7em;
+	}
+
+
+/* Basic text styles */
+	
+p, ul, ol {
+	color: white;
+	font-family: Palatino, Times, serif;
+	font-size: .95em;
+	line-height: 1.4em;
+	text-align: left;
+	}
+	
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	}
+li{
+	border-bottom: solid red;
+}
+	
+.credit {
+	font-size: .7em;
+	text-align: center;
+	}
+
+
+/* Image styles */
+
+img {
+	width: 100%;
+	}
+	
+
+/* Page footer */
+
+#footer {
+	padding-top: 24px;
+	}
+
+
+/* Link states */
+	
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	}
+
+a.heading:hover {
+	background-color: transparent;
+	}
+	
+a:focus, a:hover {
+
+	color: black;
+	background: white;
+	}
+	
+a:active {
+	text-decoration: none;
+	}
+.footer2{
+	border-bottom: solid red;
+}
+.small{
+	width: 10%;
+	float: left;
+}
+.none{
+	border: none;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+
+
+/* End mobile style sheet for NYC site */
